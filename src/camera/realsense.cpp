@@ -59,7 +59,7 @@ void Realsense::ConvertToPclPointType(const rs2::points& points,
 
     int width = color_frame.get_width();
     int height = color_frame.get_height();
-        const auto new_texture = reinterpret_cast<const uint8_t*>(color_frame.get_data());
+    const auto new_texture = reinterpret_cast<const uint8_t*>(color_frame.get_data());
     for (unsigned int i = 0; i < points.size(); ++i)
     {
         // position
