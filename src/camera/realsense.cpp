@@ -9,12 +9,6 @@ namespace painting
     namespace camera
     {
 
-struct RgbTexture
-{
-    /* data */
-};
-
-
 bool Realsense::Init()
 {
     using namespace rs2;
